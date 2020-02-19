@@ -1,0 +1,79 @@
+.dd{border:1px solid #c3c3c3;}
+.dd .divider{border-left:1px solid #c3c3c3; border-right:1px solid #fff;; right:24px;}
+.dd .ddArrow{width:16px;height:16px; margin-top:-8px; background:url(../../images/msdropdown/skin1/dd_arrow.gif) no-repeat;}
+.dd .ddArrow:hover{background-position:0 100%;}
+.dd .ddTitle{color:#000;background:#FF8A00 repeat-x left top;}
+.dd .ddTitle .ddTitleText{padding:5px 20px 5px 5px;}
+.dd .ddTitle .ddTitleText .ddTitleText{padding:0;}
+.dd .ddTitle .description{font-size:12px; color:#666}
+.dd .ddTitle .ddTitleText img{padding-right:5px;}
+.dd .ddChild{border:1px solid #c3c3c3; background-color:#fff; left:-1px;}
+.dd .ddChild li{padding:-15px; background-color:#fff; border-bottom:1px solid #c3c3c3;}
+.dd .ddChild li .description{color:#666;}
+.dd .ddChild li .ddlabel{color:#333;}
+.dd .ddChild li.hover{background-color:#8E8E8E}
+.dd .ddChild li img{padding:0 6px 0 0;}
+.dd .ddChild li.optgroup{padding:0;}
+.dd .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.dd .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.dd .ddChild li.selected{background-color:#545454; color:#000;}
+
+script:
+
+<script language="javascript">
+$(document).ready(function(e) {
+try {
+$("body select").msDropDown();
+} catch(e) {
+alert(e.message);
+}
+});
+</script>
+
+
+body:
+
+<!--<div class="dropdown">
+  <img src="pics/Overwatch_circle_logo.png" alt="Cinque Terre" width="100" height="100">
+  <div class="dropdown-content">
+    <img src="pics/Icon-Ana.png" alt="Cinque Terre" width="150" height="200">
+    <div class="desc"><i>Soldier 76</i></div>
+	<img src="pics/Icon-Bastion.png" alt="Cinque Terre" width="150" height="200">
+    <div class="desc"><i>Junkrat</i></div>
+  </div>
+</div>-->
+
+<!--<select name="webmenu" id="webmenu">
+    <option value="calendar" selected="selected" data-image="pics/Icon-Ana.png"><i>Calendar</i></option>
+    <option value="shopping_cart" data-image="pics/Icon-Bastion.png">Shopping Cart</option>
+    <option value="cd" data-image="pics/Icon-Brigitte.png">CD</option>
+    <option value="email" title="pics/Icon-D.va.png">Email</option>
+    <option value="faq" data-image="pics/Icon-Doomfist.png">FAQ</option>
+    <option value="games" data-image="pics/Icon-Genji.png">Games</option>
+	<option value="games" data-image="pics/Icon-Hanzo.png">Games</option>
+	<option value="games" data-image="pics/Icon-Junkrat.png">Games</option>
+	<option value="games" data-image="pics/Icon-Lúcio.png">Games</option>
+  </select>
+  
+<select name="webmenu" id="webmenu2">
+    <option value="calendar" selected="selected" data-image="pics/Icon-Ana.png"><i>Calendar</i></option>
+    <option value="shopping_cart" data-image="pics/Icon-Bastion.png">Shopping Cart</option>
+    <option value="cd" data-image="pics/Icon-Brigitte.png">CD</option>
+    <option value="email" title="pics/Icon-D.va.png">Email</option>
+    <option value="faq" data-image="pics/Icon-Doomfist.png">FAQ</option>
+    <option value="games" data-image="pics/Icon-Genji.png">Games</option>
+	<option value="games" data-image="pics/Icon-Hanzo.png">Games</option>
+	<option value="games" data-image="pics/Icon-Junkrat.png">Games</option>
+	<option value="games" data-image="pics/Icon-Lúcio.png">Games</option>
+  </select>
+  
+<select name="webmenu" id="webmenu3">
+    <option value="calendar" data-image="icons/icon_calendar.gif">Calendar</option>
+    <option value="shopping_cart" data-image="icons/icon_cart.gif">Shopping Cart</option>
+    <option value="cd" data-image="icons/icon_cd.gif">CD</option>
+    <option value="email"  selected="selected" title="icons/icon_email.gif">Email</option>
+    <option value="faq" data-image="icons/icon_faq.gif">FAQ</option>
+    <option value="games" data-image="icons/icon_games.gif">Games</option>
+  </select>
+
+-->

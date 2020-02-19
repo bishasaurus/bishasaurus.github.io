@@ -1,0 +1,1 @@
+can deploy a turret, that shoots hitscan ammos at any target in its line of sight. He's a great defensive dps hero, but without his turret's help he's a bit inefficient compared to other heroes. 

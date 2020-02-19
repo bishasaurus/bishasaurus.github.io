@@ -1,0 +1,1 @@
+Copyright © Henri Heiskanen 2018. Overwatch and characters © Blizzard Entertainment 2016-2018.

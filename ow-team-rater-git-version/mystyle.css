@@ -1,0 +1,126 @@
+body {
+    background-image: url("pics/bg.jpg");
+	background-size: cover;
+	color: white;
+	font-family: Arial;
+}
+
+@font-face {
+    font-family: owFont;	
+	src: url("BigNoodleTitling.woff") format("woff");
+}
+
+#assemble {
+	font-family: owFont;
+	font-size: 40px;
+	font-style: italic;
+	color: white;
+}
+
+.roster {
+	font-family: owFont;
+	font-size: 40px;
+	font-style: italic;
+	color: white;
+}
+
+#navigation {
+	font-family: owFont;
+	font-size: 40px;
+	border-radius: 6px;
+	background-size: cover, contain;
+	font-style: italic;
+}
+
+#navigations {
+	font-family: owFont;
+	font-size: 28px;
+	background-image: url("pics/gray_nav_bg.png");
+	border-radius: 6px;
+	background-size: cover, contain;
+}
+
+#main_content {
+	background-image: url("pics/gray_nav_bg.png");
+	border-radius: 6px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#main_text {
+	margin-left: 60px;
+	margin-top: 35px;
+	margin-bottom: 55px;
+}
+
+#extra_content {
+	background-image: url("pics/dark_gray_bg.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-top: 35px;
+	margin-bottom: 55px;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    margin-left: 8px;
+}
+.nav-item {
+	margin-left: 10px;
+}
+.col {
+	margin: 15px;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	color: black;
+	font-family: owFont;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #545454;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	font-size: 25px;
+	margin-top: 10px;
+	left: auto;
+	right: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+	float: right;
+
+}
+
+.characters {
+	font-family: owFont;
+}
+
+.header {
+	font-family: owFont;
+	font-style: italic;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
